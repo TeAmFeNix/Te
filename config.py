@@ -9,8 +9,8 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "BABIoRr8Pfgw9Xb4tnxnHteaJhgL4qQI6rJyA5lccCEUbvTRNWzX4F0MRNCgyM3IYqobNTfzqAGjBT1_VSNyOwY2i1drihBQFu0JQMi2YGCIOQD6WRHTNqpgg-5-WyyBHL1cxkpCTakF3YjeVAz9l8puBqDQdB2blWzCMvNVz8CbFNOEh5ShzH7t5IxtvaHo0sU5XOpUDVFxTaldfMFP9-Pj3xfZLD_tluSrfu4Rz4Kgj66drl-SCjOPaD6AkzfwmNqWXoQls6TECF_OU0hgm1Q6FSTQ5B54R5_qAmswUMcvybTJl6Ht7N2_avcZDtarccGqnLHYA_6nOS-KAeas8k7rAAAAAVRSvr4A")
-BOT_TOKEN = getenv("BOT_TOKEN", "5540293954:AAEwL7X-bEHvzLCIc1Y_Yd3S_QdHKoQxdFY")
+SESSION_NAME = getenv("SESSION_NAME", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 BOT_NAME = getenv("BOT_NAME", "m")
 API_ID = int(getenv("API_ID", "8934899"))
 API_HASH = getenv("API_HASH", "bf3e98d2c351e4ad06946b4897374a1e")

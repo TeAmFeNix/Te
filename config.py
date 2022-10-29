@@ -11,7 +11,7 @@ load_dotenv()
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "AQC4sGYAh3emE-gnr2dFULcWrtecrdNriWi2SoLkup6HemQhc5Z-waNCtukHYVSZor1cDTrYyq1pu81MKHRV0_VvRUNDuyyqeqpdh0BNigiwnc08zzd3XO8ZCMCzE_yt2mu6FxDDn1x-pUHvtbgdSeYVecXEt-wEgBAsgPbVvstO9zSVqtK8s8U_8KichwuOPX9r1GIlpEheu_ZWlt0PpcuRHz3xde6aQk5aCuDvgsbXqy_0fzdOdiWUDokP_Uh_29sOTpfCXEtC_o5c-phfn0crtYjZOtv3zZBNUrwgomp7Hj8_EyrlJLpQTFTrfThfc_KNJKr6bPgU_XdINV1Q_gGNby8t-gAAAAFU_2aVAA")
 BOT_TOKEN = getenv("BOT_TOKEN", "5638976866:AAFGjJY7UuayBpMd_9Dif5xzVHW424tPJdU")
-BOT_NAME = getenv("BOT_NAME", "𝗞𝗼𝗖𝗵𝗶𝗸𝗶")
+BOT_NAME = getenv("BOT_NAME", "KoChiki")
 API_ID = int(getenv("API_ID", "12103782"))
 API_HASH = getenv("API_HASH", "c7407238fc27d47705106d6b76253bdc")
 OWNER_NAME = getenv("OWNER_NAME", "Akeen")

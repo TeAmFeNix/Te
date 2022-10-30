@@ -70,11 +70,11 @@ def get_readable_time(seconds: int) -> str:
 @BOT.on(events.NewMessage(incoming=True, pattern=r"\%sping(?: |$)(.*)" % hl))
 async def ping(e):
         start = datetime.now()
-        text = "Pong!"
+        text = "بنك!"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 🇵 🇴 🇳 🇬 !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
+        await event.edit(f"P i N G !\n\n♡︎ `{ms}` 𝗺𝘀 ♡︎")
         
         
 

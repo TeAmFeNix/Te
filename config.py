@@ -10,10 +10,10 @@ if os.path.exists("local.env"):
 load_dotenv()
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "AgBo9eAgsOoyDJf_AsoS6ouEdOPivBYj-5sGRBVLEPqx6KLsiw-3FSF8Oak8v16OTRuiIuCxuQ73qrsCrbb68TOCv5V2LZD53deNDIHXSFVRLZpE1qgufVn7epQk8RXolOapVJMkUXKcumuI7s1gyE25lixeJ7gqFK2HL8u7stYP8Re5J-e7rp8ikad649IgxNOJ8myyCUnVnvPL7zM1tcYiQVwXQ6kE-4zBoF8ms1WeMBprEaUOfketPJBMbA5eas9K9B37OU497_NmMIZgRixgm9Wh1iO6J69p72CC0j5subgG_DJ9T3CvjyLnHikD45ybser02RPh8h84-NdDR5CxAAAAAUGEvugA")
-BOT_TOKEN = getenv("BOT_TOKEN", "5538104001:AAFZmQvf1PdnL9JASsdxu0y11E09vytI2Qk")
+BOT_TOKEN = getenv("BOT_TOKEN", "5538104001:AAFVyMP2aBCS_uvqg8QovKAQlb8D_ac0rrk")
 BOT_NAME = getenv("BOT_NAME", "FeNix")
-API_ID = int(getenv("API_ID", "15041781"))
-API_HASH = getenv("API_HASH", "7bab59794fa1fa47d165bbf6eee6b8be")
+API_ID = int(getenv("API_ID", "16228886"))
+API_HASH = getenv("API_HASH", "b7de6ba01d7af6fc2d99375b5fbd0f82")
 OWNER_NAME = getenv("OWNER_NAME", "akeen")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "ipiiii")
 ALIVE_NAME = getenv("ALIVE_NAME", "akeen")
